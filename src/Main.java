@@ -3,6 +3,7 @@ import java.util.Arrays;
 public class Main {
     static final int N = 10;
 
+
     public static void main(String[] args) {
         System.out.println("Курсовая работа");
         Employee[] employees = new Employee[N];
@@ -38,7 +39,6 @@ public class Main {
     }
 
 
-    public static void printInfo(Employee surname, Employee name, Employee middleName, Employee department, Employee salary, Employee id) {
-        System.out.println("Сотрудники" + surname.getSurname() + "" + name.getName() + "" + middleName.getMiddleName() + "" + department.getDepartment() + "" + salary.getSalary() + "" + id.getId());
-    }
+
+
 }
